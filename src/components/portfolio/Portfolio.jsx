@@ -19,7 +19,7 @@ const data = [
     image: IMG1,
     title: 'Resume-Builder',
     github: 'https://github.com/FaizShaikh0705/Resume-Builder',
-    demo: 'https://github.com/FaizShaikh0705/Resume-Builder'
+    demo: 'https://resume-builder5.netlify.app/'
   },
   {
     id: 2,
@@ -47,7 +47,7 @@ const data = [
     image: IMG5,
     title: 'image_to_text_convertor',
     github: 'https://github.com/FaizShaikh0705/image_to_text_convertor',
-    demo: 'https://github.com/FaizShaikh0705/image_to_text_convertor'
+    demo: 'https://img2text.netlify.app/'
   },
   {
     id: 6,
