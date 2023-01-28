@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-import ME from '../../assets/me1.jpg'
+import ME from '../../assets/Image1234.webp'
 import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
@@ -34,12 +34,13 @@ const About = () => {
             <article className='about__card'>
               <VscFolderLibrary className='about__icon'/>
               <h5>Projects</h5>
-              <small>22+ Completed</small>
+              <small>7+ Completed</small>
             </article>
           </div>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Tenetur ea, a modi at veritatis excepturi aperiam illo nemo labore asperiores, 
-            corrupti mollitia? Eum quibusdam vel natus fugit similique fuga aliquam.
+          <p>I' am a FullStack Web Developer. My expertise is to Create and Design Website and many more...
+          I want to learn newer developments and possibilities in Web. This is to train
+myself to innovate the future. Looking forward to work with an organization
+which will fulfill these objectives.
           </p>
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>

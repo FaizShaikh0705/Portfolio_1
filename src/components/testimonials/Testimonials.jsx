@@ -20,23 +20,23 @@ import { Pagination } from "swiper";
 const data = [
   {
     avatar: AVTR1,
-    name: 'Tina Snow',
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et exercitationem, ut quisquam non reprehenderit quaerat provident? Exercitationem ratione blanditiis, beatae nemo eos porro temporibus, fugit magnam labore doloremque in cum.'
+    name: 'Zubia Ansari',
+    review: 'I would highly recommend Mr Faiz Shaikh. We are great to work with. He made website from scratch using React.js and made it responsive for small deivces Our experience with the customer service has been great.It also keep us updated on monthly reports so we know how our site is doing.'
   },
   {
     avatar: AVTR2,
-    name: 'Shatte Wale',
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et exercitationem, ut quisquam non reprehenderit quaerat provident? Exercitationem ratione blanditiis, beatae nemo eos porro temporibus, fugit magnam labore doloremque in cum.'
+    name: 'Amaan Khan',
+    review: 'We have been very happy with our new website! It looks professional and very easy to navigate.It handle things very efficiently and are available for any questions we have. It also keep us updated on monthly reports so we know how our site is doing. I would recommend Thrive to anyone looking for website design!'
   },
   {
     avatar: AVTR3,
-    name: 'Kwame Despite',
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et exercitationem, ut quisquam non reprehenderit quaerat provident? Exercitationem ratione blanditiis, beatae nemo eos porro temporibus, fugit magnam labore doloremque in cum.'
+    name: 'Zian Kazi',
+    review: 'We at Kee Service were very impressed with the all aspects of our new website. We would highly reccomend Mr Faiz Shaikh to anyone looking to build a new website.He were also very easy to communicate with and were able to work from concepts rather than needing me to design the website myself.'
   },
   {
     avatar: AVTR4,
-    name: 'Nana Ama McBrown',
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et exercitationem, ut quisquam non reprehenderit quaerat provident? Exercitationem ratione blanditiis, beatae nemo eos porro temporibus, fugit magnam labore doloremque in cum.'
+    name: 'Aisha Maktabey',
+    review: 'My new website is everything that I wanted.What I loved about Thrive was the fact that he started with a plan and executed it. He took the time to get to know my business before starting the build process which saved me time because I didn’t have to continually make changes.'
   },
 ]
 

@@ -1,8 +1,8 @@
 import React from 'react'
 import './Portfolio.css'
-import IMG2 from '../../assets/portfolio1.jpg'
-import IMG1 from '../../assets/portfolio2.jpg'
-import IMG3 from '../../assets/portfolio3.jpg'
+import IMG1 from '../../assets/portfolio1.jpg'
+import IMG2 from '../../assets/arkstudio1.jpeg'
+import IMG3 from '../../assets/portfolio3.png'
 import IMG4 from '../../assets/portfolio4.jpg'
 import IMG5 from '../../assets/portfolio5.png'
 import IMG6 from '../../assets/portfolio6.jpg'
@@ -17,44 +17,44 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'This the title 1',
-    github: 'https://github.com/FaizShaikh0705',
-    demo: 'https://github.com/FaizShaikh0705/'
+    title: 'Resume-Builder',
+    github: 'https://github.com/FaizShaikh0705/Resume-Builder',
+    demo: 'https://github.com/FaizShaikh0705/Resume-Builder'
   },
   {
     id: 2,
     image: IMG2,
-    title: 'This the title 2',
-    github: 'https://github.com/FaizShaikh0705',
-    demo: 'https://github.com/FaizShaikh0705/'
+    title: 'ARK Studio',
+    github: 'https://github.com/FaizShaikh0705/Html-Css-Project3',
+    demo: 'https://faizshaikh0705.github.io/Html-Css-Project3/'
   },
   {
     id: 3,
     image: IMG3,
-    title: 'This the title 3',
-    github: 'https://github.com/FaizShaikh0705',
-    demo: 'https://github.com/FaizShaikh0705/'
+    title: 'Stop-Watch-Project',
+    github: 'https://github.com/FaizShaikh0705/Stop-Watch-Project',
+    demo: 'https://faizshaikh0705.github.io/Stop-Watch-Project/'
   },
   {
     id: 4,
     image: IMG4,
-    title: 'This the title 4',
-    github: 'https://github.com/FaizShaikh0705',
-    demo: 'https://github.com/FaizShaikh0705/'
+    title: 'Seedkaro Website',
+    github: 'https://github.com/FaizShaikh0705/Html-Css-Bootstap-project4',
+    demo: 'https://faizshaikh0705.github.io/Html-Css-Bootstap-project4/'
   },
   {
     id: 5,
     image: IMG5,
-    title: 'This the title 5',
-    github: 'https://github.com/FaizShaikh0705',
-    demo: 'https://github.com/FaizShaikh0705/'
+    title: 'image_to_text_convertor',
+    github: 'https://github.com/FaizShaikh0705/image_to_text_convertor',
+    demo: 'https://github.com/FaizShaikh0705/image_to_text_convertor'
   },
   {
     id: 6,
     image: IMG6,
-    title: 'This the title 6',
-    github: 'https://github.com/FaizShaikh0705',
-    demo: 'https://github.com/FaizShaikh0705/'
+    title: 'Stack Website',
+    github: 'https://github.com/FaizShaikh0705/compitition-website',
+    demo: 'https://faizshaikh0705.github.io/compitition-website/'
   }
 ]
 
@@ -76,7 +76,7 @@ const Portfolio = () => {
             <h3>{title}</h3>
             <div className="portfolio__item-cta">
             <a href={github} className="btn" target='_blank'>Github</a>
-            <a href={demo} className="btn btn-primary" target='_blank'>Live Demo</a>
+            <a href={demo} className="btn btn-primary" target='_blank'>View Project</a>
             </div>
           </article>
           )
