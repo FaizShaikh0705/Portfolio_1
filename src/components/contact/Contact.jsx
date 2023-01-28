@@ -40,21 +40,21 @@ function ContactForm() {
         <MdOutlineEmail className='contact__option-icon'/>
         <h4>Email</h4>
         <h5>Faizshaikh0705@gmail.com</h5>
-        <a href="mailto:Faizshaikh07052gmail.com" target='_blank'>Send a message</a>
+        <a href="mailto:Faizshaikh07052gmail.com" target='_blank' rel="noopener noreferrer">Send a message</a>
        </article>
 
        <article className="contact__option">
         <RiMessengerLine className='contact__option-icon'/>
         <h4>Massenger</h4>
         <h5>Faiz Shaikh</h5>
-        <a href="https://m.me/profile.php?id=100056026290106" target='_blank'>Send a message</a>
+        <a href="https://m.me/profile.php?id=100056026290106" target='_blank' rel="noopener noreferrer">Send a message</a>
        </article>
 
        <article className="contact__option">
         <BsWhatsapp className='contact__option-icon'/>
         <h4>WhatsApp</h4>
         <h5>+918291298104</h5>
-        <a href="https://api.whatsapp.com/send?phone=+918291298104" target='_blank'>Send a message</a>
+        <a href="https://api.whatsapp.com/send?phone=+918291298104" target='_blank' rel="noopener noreferrer">Send a message</a>
        </article>
       </div>
       
