@@ -1,9 +1,9 @@
 import React from 'react'
 import './Testimonials.css'
-import AVTR1 from '../../assets/avatar1.jpg'
-import AVTR2 from '../../assets/avatar2.jpg'
-import AVTR3 from '../../assets/avatar3.jpg'
-import AVTR4 from '../../assets/avatar4.jpg'
+import AVTR1 from '../../assets/avatar11.jpeg'
+import AVTR2 from '../../assets/avatar22.jpeg'
+import AVTR3 from '../../assets/avatar33.jpeg'
+import AVTR4 from '../../assets/avatar44.jpeg'
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -26,7 +26,7 @@ const data = [
   {
     avatar: AVTR2,
     name: 'Amaan Khan',
-    review: 'We have been very happy with our new website! It looks professional and very easy to navigate.It handle things very efficiently and are available for any questions we have. It also keep us updated on monthly reports so we know how our site is doing. I would recommend Thrive to anyone looking for website design!'
+    review: 'We have been very happy with our new website! It looks professional and very easy to navigate.It handle things very efficiently and are available for any questions we have. It also keep us updated on monthly reports so we know how our site is doing. I would recommend Him to anyone looking for website design!'
   },
   {
     avatar: AVTR3,
@@ -36,7 +36,7 @@ const data = [
   {
     avatar: AVTR4,
     name: 'Aisha Maktabey',
-    review: 'My new website is everything that I wanted.What I loved about Thrive was the fact that he started with a plan and executed it. He took the time to get to know my business before starting the build process which saved me time because I didn’t have to continually make changes.'
+    review: 'My new website is everything that I wanted.What I loved about Him was the fact that he started with a plan and executed it. He took the time to get to know my business before starting the build process which saved me time because I didn’t have to continually make changes.'
   },
 ]
 

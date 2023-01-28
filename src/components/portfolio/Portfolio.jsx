@@ -1,11 +1,11 @@
 import React from 'react'
 import './Portfolio.css'
-import IMG1 from '../../assets/portfolio1.jpg'
-import IMG2 from '../../assets/arkstudio1.jpeg'
-import IMG3 from '../../assets/portfolio3.png'
-import IMG4 from '../../assets/portfolio4.jpg'
-import IMG5 from '../../assets/portfolio5.png'
-import IMG6 from '../../assets/portfolio6.jpg'
+import IMG1 from '../../assets/resumebuilder123.jpg'
+import IMG2 from '../../assets/arkstudio123.jpg'
+import IMG3 from '../../assets/stopwatch123.jpg'
+import IMG4 from '../../assets/seedkaro123.jpg'
+import IMG5 from '../../assets/imgtotext123.jpg'
+import IMG6 from '../../assets/stackweb123.jpg'
 
 
 
