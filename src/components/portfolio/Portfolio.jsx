@@ -54,7 +54,7 @@ const data = [
     image: IMG6,
     title: 'Stack Website',
     github: 'https://github.com/FaizShaikh0705/compitition-website',
-    demo: 'https://faizshaikh0705.github.io/compitition-website/'
+    demo: 'https://stack-web.netlify.app/'
   }
 ]
 
