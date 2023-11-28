@@ -10,6 +10,8 @@ import IMG7 from '../../assets/1.png'
 import IMG8 from '../../assets/2.png'
 import IMG9 from '../../assets/3.png'
 import IMG10 from '../../assets/4.png'
+import IMG11 from '../../assets/5.png'
+import IMG12 from '../../assets/6.png'
 
 
 
@@ -87,6 +89,20 @@ const data = [
     title: 'Games For Autastic/NonAutastic',
     github: 'https://github.com/FaizShaikh0705/fun-games',
     demo: 'https://games0705.netlify.app/Home'
+  },
+  {
+    id: 11,
+    image: IMG11,
+    title: 'Verb Game',
+    github: 'https://github.com/FaizShaikh0705/react-verb-game',
+    demo: 'https://react-verb-game.netlify.app/'
+  },
+  {
+    id: 12,
+    image: IMG12,
+    title: 'Gammer Randon Question Game',
+    github: 'https://github.com/FaizShaikh0705/react-random-number-game',
+    demo: 'https://random-number-game1.netlify.app/'
   }
 ]
 
