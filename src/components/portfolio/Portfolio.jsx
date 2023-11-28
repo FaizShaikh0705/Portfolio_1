@@ -6,6 +6,10 @@ import IMG3 from '../../assets/stopwatch123.jpg'
 import IMG4 from '../../assets/seedkaro123.jpg'
 import IMG5 from '../../assets/imgtotext123.jpg'
 import IMG6 from '../../assets/stackweb123.jpg'
+import IMG7 from '../../assets/1.png'
+import IMG8 from '../../assets/2.png'
+import IMG9 from '../../assets/3.png'
+import IMG10 from '../../assets/4.png'
 
 
 
@@ -55,6 +59,34 @@ const data = [
     title: 'Stack Website',
     github: 'https://github.com/FaizShaikh0705/compitition-website',
     demo: 'https://stack-web.netlify.app/'
+  },
+  {
+    id: 7,
+    image: IMG7,
+    title: 'Recurring Deposit',
+    github: 'https://github.com/FaizShaikh0705/bissi-aap',
+    demo: 'https://bissi-app.netlify.app/deposits'
+  },
+  {
+    id: 8,
+    image: IMG8,
+    title: 'Safari Website',
+    github: 'https://safari-kids.netlify.app/',
+    demo: 'https://safari-kids.netlify.app/'
+  },
+  {
+    id: 9,
+    image: IMG9,
+    title: 'Mens Fashion Dashboard',
+    github: 'https://github.com/FaizShaikh0705/daniya-collection',
+    demo: 'https://daniyal-collection.netlify.app/stockIn'
+  },
+  {
+    id: 10,
+    image: IMG10,
+    title: 'Games For Autastic/NonAutastic',
+    github: 'https://github.com/FaizShaikh0705/fun-games',
+    demo: 'https://games0705.netlify.app/Home'
   }
 ]
 
@@ -66,23 +98,23 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
-       {
-        data.map(({id, image, title, github, demo}) => {
-          return(
-            <article key={id} className="portfolio__item">
-            <div className="portfolio__item-image">
-              <img src={image} alt={title} />
-            </div>
-            <h3>{title}</h3>
-            <div className="portfolio__item-cta">
-            <a href={github} className="btn" target='_blank'>Github</a>
-            <a href={demo} className="btn btn-primary" target='_blank'>View Project</a>
-            </div>
-          </article>
-          )
-        })
-       }
-        </div>
+        {
+          data.map(({ id, image, title, github, demo }) => {
+            return (
+              <article key={id} className="portfolio__item">
+                <div className="portfolio__item-image">
+                  <img src={image} alt={title} height='252' width='343' />
+                </div>
+                <h3>{title}</h3>
+                <div className="portfolio__item-cta">
+                  <a href={github} className="btn" target='_blank'>Github</a>
+                  <a href={demo} className="btn btn-primary" target='_blank'>View Project</a>
+                </div>
+              </article>
+            )
+          })
+        }
+      </div>
     </section>
   )
 }
